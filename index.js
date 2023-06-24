@@ -1,12 +1,16 @@
 const exchangeIcon = document.querySelector(".fa-exchange");
 const plusIcon = document.querySelector(".fa-plus");
 
-exchangeIcon.addEventListener("click", function() {
-    console.log('exchange')
-});
-
-plusIcon.addEventListener("click", function() {
-    console.log('plus icon')
-})
 
 
+if (plusIcon) {
+  plusIcon.addEventListener("click", function () {
+    window.location.assign("/addGiftcard.html");
+  });
+}
+
+if (exchangeIcon) {
+  exchangeIcon.addEventListener("click", function () {
+    window.location.assign("/addGiftcard.html");
+  });
+}

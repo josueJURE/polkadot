@@ -31,9 +31,14 @@ li {
 }
 
 .bottomCornerSection {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 150px;
+    row-gap: 10px;
+    flex-direction: column;
 }
 
 .fa-plus,
